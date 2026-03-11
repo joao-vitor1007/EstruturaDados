@@ -24,7 +24,11 @@ class PilhaParenteseTest {
     @Description("Ver se está fechando os parenteses")
     void parenteseTest() {
 
-        String texto = "()()";
+        String texto = "(())";
+
+        if (texto.length() > 0 && texto.charAt(0) == ')') {
+            assertFalse(true); // falha no teste
+        }
 
         for (int i = 0; i < texto.length(); i++) {
             char c = texto.charAt(i);
@@ -33,6 +37,9 @@ class PilhaParenteseTest {
                 pilha.push(new Parentese("(", null));
             }
             else if (c == ')') {
+                if (pilha.isEmpty()){
+                    assertFalse( true);
+                }
                 pilha.pop();
             }
         }
