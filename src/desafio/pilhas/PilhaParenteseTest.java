@@ -1,4 +1,4 @@
-package desafio;
+package desafio.pilhas;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -6,7 +6,7 @@ import jdk.jfr.Description;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-class PilhaParenteseTest {
+class  PilhaParenteseTest {
 
     PilhaParentese pilha;
 
