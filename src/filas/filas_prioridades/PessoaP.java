@@ -1,4 +1,4 @@
-package filas.filas_simples;
+package filas.filas_prioridades;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,7 +9,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class Pessoa {
+public class PessoaP {
     public String nome;
-    public Pessoa proximo;
+    public int prioridade;
+    public PessoaP  proximo;
 }
