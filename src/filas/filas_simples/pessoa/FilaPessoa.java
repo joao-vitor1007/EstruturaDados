@@ -1,4 +1,4 @@
-package filas.filas_simples;
+package filas.filas_simples.pessoa;
 
 public class FilaPessoa {
     Pessoa inicio;

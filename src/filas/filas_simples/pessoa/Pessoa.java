@@ -1,4 +1,4 @@
-package filas.filas_simples;
+package filas.filas_simples.pessoa;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
