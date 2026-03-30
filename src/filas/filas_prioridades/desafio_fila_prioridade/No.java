@@ -15,6 +15,7 @@ public class No {
     public double valor;
     public int prioridade;
     public No proximo;
+
 }
 
 
